@@ -74,11 +74,26 @@
                         @if (Auth::user()->getRole() == 'admin')
                         <li class="menu-header">Menu Admin</li>
                         <li class="nav-item dropdown">
-                            <a href="#" class="nav-link has-dropdown"><i
-                                    class="fas fa-fire"></i><span>Dashboard</span></a>
+                            <a href="#" class="nav-link has-dropdown"><i class="far fa-eye"></i><span>Overview</span></a>
                             <ul class="dropdown-menu">
-                                <li><a class="nav-link" href="index-0.html">General Dashboard</a></li>
-                                <li><a class="nav-link" href="index.html">Ecommerce Dashboard</a></li>
+                                <li><a class="nav-link" href="index-0.html">Laporan Singkat Pelatihan</a></li>
+                                <li><a class="nav-link" href="index.html">Laporan Singkat Data User</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link has-dropdown"><i class="fas fa-chalkboard-teacher"></i></i><span>Atur Instruktur</span></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="nav-link" href="index-0.html">Lihat List Instruktur</a></li>
+                                <li><a class="nav-link" href="index.html">Tambah Instruktur</a></li>
+                                <li><a class="nav-link" href="index.html">cabut status Instruktur</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link has-dropdown"><i class="fas fa-book-open"></i><span>Atur Pelatihan</span></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="nav-link" href="index-0.html">Lihat List Pelatihan</a></li>
+                                <li><a class="nav-link" href="index.html">Tamabah&Hapus Pelatihan</a></li>
+                                <li><a class="nav-link" href="index.html">Atur Instruktur Pelatihan</a></li>
                             </ul>
                         </li>
                             
