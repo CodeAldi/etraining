@@ -28,7 +28,7 @@ Route::controller(AuthController::class)->group(function(){
     
 });
 
-Route::controller(DashboardController::class)->group(function(){
+Route::controller(DashboardController::class)->middleware(['auth'])->group(function(){
     Route::get('dashboard','index')->name('dashboard.index');
     
 });
