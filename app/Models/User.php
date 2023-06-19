@@ -52,7 +52,7 @@ class User extends Authenticatable
         'password' => 'hashed',
     ];
 
-    public function isAdmin(){
+    public function getRole(){
         return $this->role;
     }
 }
