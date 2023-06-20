@@ -9,7 +9,7 @@
                         <h1 class="display-4">Pelatihan Online</h1>
                         <p class="lead">Belajar dengan para ahli industri. Akses kursus online kami dan tingkatkan
                             keterampilan Anda.</p>
-                        <a href="#" class="btn btn-primary btn-lg">Daftar Sekarang</a>
+                        <a href="{{ route('login') }}" class="btn btn-primary btn-lg">Daftar Sekarang</a>
                     </div>
                 </div>
             </div>
@@ -56,7 +56,7 @@
                         <h2 class="display-4">Mulailah Perjalanan Belajar Anda Hari Ini</h2>
                         <p class="lead">Daftar sekarang dan tingkatkan keterampilan Anda dengan kursus online berkualitas
                             kami.</p>
-                        <a href="#" class="btn btn-primary btn-lg">Daftar Sekarang</a>
+                        <a href="{{ route('login') }}" class="btn btn-primary btn-lg">Daftar Sekarang</a>
                     </div>
                 </div>
             </div>
